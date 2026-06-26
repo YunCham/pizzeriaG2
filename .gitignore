@@ -1,3 +1,24 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist
+dist-ssr
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.*.local
+
+# Configuration files with secrets
+opencode.json
+db.json
+
+# Generated files
+./AGENTS.md
+./API_GUIDE.md
+
 # Logs
 logs
 *.log
@@ -7,19 +28,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Dependency 
-.agents/
-AGENTS.dm
-API_GUIDE.dm
-.env
-opencode.json
-
-# Editor directories and files
+# Editor
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -30,5 +39,10 @@ opencode.json
 *.sln
 *.sw?
 
-# Config
-opencode.json
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
