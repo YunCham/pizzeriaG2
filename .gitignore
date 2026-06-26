@@ -15,9 +15,9 @@ dist-ssr
 opencode.json
 db.json
 
-# Generated files
-./AGENTS.md
-./API_GUIDE.md
+# Project documentation (local use only)
+AGENTS.md
+API_GUIDE.md
 
 # Logs
 logs
