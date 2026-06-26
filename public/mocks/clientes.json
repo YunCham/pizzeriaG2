@@ -1,0 +1,5 @@
+[
+  { "id": "cli-001", "nombre": "Carlos", "apellido": "López", "correo": "carlos@email.com" },
+  { "id": "cli-002", "nombre": "María", "apellido": "García", "correo": "maria@email.com" },
+  { "id": "cli-003", "nombre": "Pedro", "apellido": "Martínez", "correo": "pedro@email.com" }
+]

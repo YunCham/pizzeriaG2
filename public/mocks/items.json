@@ -1,0 +1,12 @@
+[
+  { "id": "item-001", "nombre": "Queso Mozzarella", "cantidadDisponible": 50 },
+  { "id": "item-002", "nombre": "Jamón", "cantidadDisponible": 30 },
+  { "id": "item-003", "nombre": "Pepperoni", "cantidadDisponible": 40 },
+  { "id": "item-004", "nombre": "Champiñones", "cantidadDisponible": 25 },
+  { "id": "item-005", "nombre": "Pimiento", "cantidadDisponible": 20 },
+  { "id": "item-006", "nombre": "Cebolla", "cantidadDisponible": 35 },
+  { "id": "item-007", "nombre": "Aceitunas", "cantidadDisponible": 30 },
+  { "id": "item-008", "nombre": "Salsa de Tomate", "cantidadDisponible": 60 },
+  { "id": "item-009", "nombre": "Orégano", "cantidadDisponible": 45 },
+  { "id": "item-010", "nombre": "Piña", "cantidadDisponible": 15 }
+]

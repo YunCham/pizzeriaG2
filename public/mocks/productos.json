@@ -1,0 +1,54 @@
+[
+  {
+    "id": "prod-001",
+    "nombre": "Pizza Margherita",
+    "precio": 89,
+    "itemsBase": [
+      { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+      { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 }
+    ]
+  },
+  {
+    "id": "prod-002",
+    "nombre": "Pizza Pepperoni",
+    "precio": 109,
+    "itemsBase": [
+      { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+      { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+      { "itemId": "item-003", "nombre": "Pepperoni", "cantidad": 1 }
+    ]
+  },
+  {
+    "id": "prod-003",
+    "nombre": "Pizza Jamón y Queso",
+    "precio": 99,
+    "itemsBase": [
+      { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+      { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+      { "itemId": "item-002", "nombre": "Jamón", "cantidad": 1 }
+    ]
+  },
+  {
+    "id": "prod-004",
+    "nombre": "Pizza Vegetariana",
+    "precio": 99,
+    "itemsBase": [
+      { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+      { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 1 },
+      { "itemId": "item-004", "nombre": "Champiñones", "cantidad": 1 },
+      { "itemId": "item-005", "nombre": "Pimiento", "cantidad": 1 },
+      { "itemId": "item-006", "nombre": "Cebolla", "cantidad": 1 }
+    ]
+  },
+  {
+    "id": "prod-005",
+    "nombre": "Pizza Hawaiana",
+    "precio": 109,
+    "itemsBase": [
+      { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+      { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+      { "itemId": "item-002", "nombre": "Jamón", "cantidad": 1 },
+      { "itemId": "item-010", "nombre": "Piña", "cantidad": 1 }
+    ]
+  }
+]

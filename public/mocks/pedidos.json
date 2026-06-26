@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ped-001",
+    "clienteId": "cli-001",
+    "direccion": "Av. Roca y Coronado #456",
+    "total": 178,
+    "estado": "entregado",
+    "repartidorId": "rep-001",
+    "creadoEn": "2026-06-24T18:30:00.000Z",
+    "productos": [
+      {
+        "id": "pp-001",
+        "productoId": "prod-001",
+        "cantidad": 2,
+        "precioUnitario": 89,
+        "itemsPersonalizados": [
+          { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+          { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ped-002",
+    "clienteId": "cli-002",
+    "direccion": "Calle 7 #123",
+    "total": 109,
+    "estado": "preparando",
+    "repartidorId": null,
+    "creadoEn": "2026-06-25T12:00:00.000Z",
+    "productos": [
+      {
+        "id": "pp-002",
+        "productoId": "prod-002",
+        "cantidad": 1,
+        "precioUnitario": 109,
+        "itemsPersonalizados": [
+          { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+          { "itemId": "item-003", "nombre": "Pepperoni", "cantidad": 2 }
+        ]
+      }
+    ]
+  }
+]

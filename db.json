@@ -1,0 +1,117 @@
+{
+  "clientes": [
+    { "id": "cli-001", "nombre": "Carlos", "apellido": "López", "correo": "carlos@email.com" },
+    { "id": "cli-002", "nombre": "María", "apellido": "García", "correo": "maria@email.com" },
+    { "id": "cli-003", "nombre": "Pedro", "apellido": "Martínez", "correo": "pedro@email.com" }
+  ],
+  "items": [
+    { "id": "item-001", "nombre": "Queso Mozzarella", "cantidadDisponible": 50 },
+    { "id": "item-002", "nombre": "Jamón", "cantidadDisponible": 30 },
+    { "id": "item-003", "nombre": "Pepperoni", "cantidadDisponible": 40 },
+    { "id": "item-004", "nombre": "Champiñones", "cantidadDisponible": 25 },
+    { "id": "item-005", "nombre": "Pimiento", "cantidadDisponible": 20 },
+    { "id": "item-006", "nombre": "Cebolla", "cantidadDisponible": 35 },
+    { "id": "item-007", "nombre": "Aceitunas", "cantidadDisponible": 30 },
+    { "id": "item-008", "nombre": "Salsa de Tomate", "cantidadDisponible": 60 },
+    { "id": "item-009", "nombre": "Orégano", "cantidadDisponible": 45 },
+    { "id": "item-010", "nombre": "Piña", "cantidadDisponible": 15 }
+  ],
+  "productos": [
+    {
+      "id": "prod-001",
+      "nombre": "Pizza Margherita",
+      "precio": 89,
+      "itemsBase": [
+        { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+        { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 }
+      ]
+    },
+    {
+      "id": "prod-002",
+      "nombre": "Pizza Pepperoni",
+      "precio": 109,
+      "itemsBase": [
+        { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+        { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+        { "itemId": "item-003", "nombre": "Pepperoni", "cantidad": 1 }
+      ]
+    },
+    {
+      "id": "prod-003",
+      "nombre": "Pizza Jamón y Queso",
+      "precio": 99,
+      "itemsBase": [
+        { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+        { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+        { "itemId": "item-002", "nombre": "Jamón", "cantidad": 1 }
+      ]
+    },
+    {
+      "id": "prod-004",
+      "nombre": "Pizza Vegetariana",
+      "precio": 99,
+      "itemsBase": [
+        { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+        { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 1 },
+        { "itemId": "item-004", "nombre": "Champiñones", "cantidad": 1 },
+        { "itemId": "item-005", "nombre": "Pimiento", "cantidad": 1 },
+        { "itemId": "item-006", "nombre": "Cebolla", "cantidad": 1 }
+      ]
+    },
+    {
+      "id": "prod-005",
+      "nombre": "Pizza Hawaiana",
+      "precio": 109,
+      "itemsBase": [
+        { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 },
+        { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+        { "itemId": "item-002", "nombre": "Jamón", "cantidad": 1 },
+        { "itemId": "item-010", "nombre": "Piña", "cantidad": 1 }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "ped-001",
+      "clienteId": "cli-001",
+      "direccion": "Av. Roca y Coronado #456",
+      "total": 178,
+      "estado": "entregado",
+      "repartidorId": "rep-001",
+      "creadoEn": "2026-06-24T18:30:00.000Z",
+      "productos": [
+        {
+          "id": "pp-001",
+          "productoId": "prod-001",
+          "cantidad": 2,
+          "precioUnitario": 89,
+          "itemsPersonalizados": [
+            { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+            { "itemId": "item-008", "nombre": "Salsa de Tomate", "cantidad": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ped-002",
+      "clienteId": "cli-002",
+      "direccion": "Calle 7 #123",
+      "total": 109,
+      "estado": "preparando",
+      "repartidorId": null,
+      "creadoEn": "2026-06-25T12:00:00.000Z",
+      "productos": [
+        {
+          "id": "pp-002",
+          "productoId": "prod-002",
+          "cantidad": 1,
+          "precioUnitario": 109,
+          "itemsPersonalizados": [
+            { "itemId": "item-001", "nombre": "Queso Mozzarella", "cantidad": 2 },
+            { "itemId": "item-003", "nombre": "Pepperoni", "cantidad": 2 }
+          ]
+        }
+      ]
+    }
+  ]
+}
